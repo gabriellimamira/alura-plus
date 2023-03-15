@@ -6,6 +6,8 @@
     /* --cor-de-fundo: #00030C; */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,10 +16,12 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: 'Inter', sans-serif;
 }
 
 .principal {
     display: flex;
+    margin-left: 54px;
 }
 
 .principal__conteudo {
@@ -30,6 +34,10 @@ body {
 
 .principal__titulo {
     text-align: center;
+    line-height: 34px;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
     margin-bottom: 22px;
 }
 
@@ -42,6 +50,8 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .principal__botoes a {
@@ -59,10 +69,10 @@ body {
 
 .principal__asterisco {
     margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .principal__background {
-    height: auto;
-    width: 100%;
-    margin-right: 0;
+    height: 100%;
 }
