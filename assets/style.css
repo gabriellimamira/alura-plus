@@ -35,7 +35,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 6em;
-    
+
 }
 
 .principal__titulo {
@@ -84,4 +84,24 @@ body {
 
 .principal__background {
     height: 100%;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 40px;
+}
+
+.dispositivos__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0 300px 145px 300px;
+    font-size: 32px;
 }
