@@ -2,8 +2,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #cccccc;
-    /* --cor-de-fundo: #00030C; */
+    --cor-de-fundo: #00030C;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
@@ -22,6 +21,10 @@ body {
 .principal {
     display: flex;
     margin-left: 54px;
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
 }
 
 .principal__conteudo {
@@ -55,6 +58,8 @@ body {
 }
 
 .principal__botoes a {
+    text-decoration: none;
+    color: var(--branco-principal);
     width: 400px;
     text-align: center;
     border: 1px solid var(--branco-principal);
