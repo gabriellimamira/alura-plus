@@ -105,3 +105,34 @@ body {
     padding: 0 300px 145px 300px;
     font-size: 32px;
 }
+
+.rodape {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 300px 100px 300px;
+}
+
+.rodape__logo {
+    max-width: 102px;
+    align-self: center;
+}
+
+.rodape__links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.rodape__direitos {
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.rodape__disclaimer {
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
