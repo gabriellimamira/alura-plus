@@ -1,9 +1,9 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
+    --botao-azul: #024daa;
     --cor-de-fundo: #00030C;
-    --botao-azul-hover: #5a9beb;
+    --botao-azul-hover: #2571cf;
     --botao-preto-hover: #010614;
 }
 
@@ -74,6 +74,7 @@ body {
 
 .principal__botoes a:hover {
     background-color: var(--botao-azul-hover);
+    transition: background 0.3s ease-in-out;
 }
 
 .principal__botoes-azul {
