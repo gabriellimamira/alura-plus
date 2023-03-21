@@ -3,6 +3,8 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --botao-azul-hover: #5a9beb;
+    --botao-preto-hover: #010614;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
@@ -70,7 +72,11 @@ body {
     padding: 16px 100px;
 }
 
-.principal__botoes a:nth-child(1) {
+.principal__botoes a:hover {
+    background-color: var(--botao-azul-hover);
+}
+
+.principal__botoes-azul {
     background-color: var(--botao-azul);
     border-color: var(--botao-azul);
 }
@@ -127,8 +133,17 @@ body {
     
 }
 
-.rodape__links li:hover {
+.rodape__links a {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.rodape__links a:hover {
     color: var(--botao-azul);
+}
+
+.rodape__links a:active {
+    color: purple;
 }
 
 .rodape__direitos {
